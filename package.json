@@ -1,0 +1,43 @@
+{
+  "name": "question-answer-runner",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.4",
+    "@vue/cli-plugin-eslint": "^4.5.4",
+    "@vue/cli-plugin-unit-jest": "^4.5.4",
+    "@vue/cli-service": "^4.5.4",
+    "@vue/eslint-config-airbnb": "^5.1.0",
+    "@vue/test-utils": "^1.0.5",
+
+    "@babel/core": "^7.10.5",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "babel-preset-vue": "^2.0.2",
+
+    "eslint": "^7.8.1",
+    "eslint-plugin-vue": "^6.2.2",
+
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.0.0",
+
+    "sass": "^1.26.10",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.1",
+    "vue-template-compiler": "^2.6.12",
+
+    "cross-env": "^7.0.2"
+  }
+}
